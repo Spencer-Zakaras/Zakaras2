@@ -76,7 +76,7 @@ namespace NewVegasNS; //in shared namespace
 *** IN/OUT ARGS : N/A ***
 *** RETURN : VOID ***
 ********************************************************************/
-        void IView.ViewH()
+        public void ViewH()
         {
             Console.WriteLine("Name               Str            Perc           End            Char           Int            Agil          Luck");
             Console.WriteLine("________________________________________________________________________________________________________________________");
@@ -93,7 +93,7 @@ namespace NewVegasNS; //in shared namespace
 *** IN/OUT ARGS : N/A ***
 *** RETURN : VOID ***
 ********************************************************************/
-        void IView.ViewV()
+        public void ViewV()
         {
             Console.WriteLine("Name:          {0}", this.Name);
             Console.WriteLine("Strength:      {0}", this.Strength);

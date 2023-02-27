@@ -9,7 +9,5 @@
 ********************************************************************/
 using NewVegasNS; //using shared namespace
 NewVegas Charecter = new NewVegas(Global.NameType.RAIDER, 8); //create NewVegas charecter object
-IView ViewV = Charecter; //create IView object(s)
-IView guy = Charecter;
-ViewV.ViewV(); //Call Vertical View Func
-guy.ViewH(); //Call horizontal View Func
+Charecter.ViewV(); //Call Vertical View Func
+Charecter.ViewH(); //Call horizontal View Func
